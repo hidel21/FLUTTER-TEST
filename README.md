@@ -132,27 +132,3 @@ Pantallas:
 
 6) Stress Test
 - [ ] Scroll 30s con animación superpuesta; anotar avgTotal y picos.
-
-## Tabla de métricas
-
-Rellena por dispositivo/OS y modo (profile/release):
-
-| Test | Dispositivo/OS | Modo | FPS/Jank (overlay) | Frames >16ms | >32ms | avgTotal (ms) | Push avg (ms) | Pop avg (ms) | Notas |
-|------|-----------------|------|--------------------|--------------|-------|---------------|---------------|--------------|-------|
-| Buttons | | | | | | | | | |
-| Lists 1k | | | | | | | | | |
-| Lists 5k | | | | | | | | | |
-| Lists 10k | | | | | | | | | |
-| Inputs | | | | | | | | | |
-| Anim 300 | | | | | | | | | |
-| Anim 800 | | | | | | | | | |
-| Anim 1500 | | | | | | | | | |
-| Navigation x20 | | | | | | | | | |
-| Stress 30s | | | | | | | | | |
-
-## Notas
-
-- Este MVP no incluye backend, persistencia ni analítica externa.
-- Los contadores del resumen se pueden resetear desde el Home.
-- Variabilidad: documenta hardware y OS. Para reproducibilidad, cierra apps en segundo plano y usa `--profile` o `--release`.
- 
