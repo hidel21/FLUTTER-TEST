@@ -1,0 +1,4 @@
+# Asigna responsables de revisión automáticamente.
+# Regla global: todo cambio requiere a @hidel21 como revisor (cuando la protección de rama exija "Require review from Code Owners").
+
+* @hidel21
