@@ -155,4 +155,4 @@ Rellena por dispositivo/OS y modo (profile/release):
 - Este MVP no incluye backend, persistencia ni analítica externa.
 - Los contadores del resumen se pueden resetear desde el Home.
 - Variabilidad: documenta hardware y OS. Para reproducibilidad, cierra apps en segundo plano y usa `--profile` o `--release`.
-# FLUTTER-TEST
+ 
